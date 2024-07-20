@@ -8,7 +8,7 @@ The basic functions of an air quality monitor system are as follows:
 - Graph display using the ThingSpeak data viewer (smartphone app; ThingView)
   
 ### Appearance of the Indoor Air Quality (IAQ) monitor
-The microcontroller is M5 Stamp (ESP32 C3), and the sensors are SCD41 and QMP6988 connected via I2C.<br>
+M5 Stamp (microcontroller is ESP32 C3(RISC-V)), and the sensors are SCD41 and QMP6988 connected via I2C.<br>
 <img src="https://github.com/foobarbazfred/IAQ_monitor/blob/main/img/iaq_monitor.png" width="40%">
 
 ### Data viewer(ThingView)
