@@ -1,5 +1,5 @@
 [package]
-name = "IQA_monitor"
+name = "IAQ_monitor"
 version = "0.0.1"
 authors = ["foobarbazfred<>"]
 edition = "2021"
