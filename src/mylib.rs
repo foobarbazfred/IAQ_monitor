@@ -1,8 +1,9 @@
 //
 //  mylib.rs
 //
-//  This source code is based on the ESP32 Rust Sample Code
-//
+//  This source code is based on the ESP32 Rust Sample Code (esp-idf-svc examples)
+//    https://github.com/esp-rs/esp-idf-svc/blob/master/examples/wifi.rs
+//    https://github.com/esp-rs/esp-idf-svc/blob/master/examples/mqtt_client.rs
 //
 use log::info;
 use core::time::Duration;
