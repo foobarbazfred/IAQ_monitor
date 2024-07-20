@@ -1,5 +1,5 @@
 # IAQ_monitor
-Air Quality Monitoring System 
+Indoor Air Quality Monitoring System 
 ### Overview
 The basic functions of an air quality monitor system are as follows:
 - Sensors are used to measure room temperature, humidity, air pressure, and CO2 concentration
