@@ -1,4 +1,10 @@
 # IAQ_monitor
+### 空気質モニタシステムの概要
+空気質モニタシステムの基本機能は以下
+- センサを用いて、部屋の温度、湿度、気圧、CO2濃度を計測
+- IoT Platform (ThingSpeak)にデータを送信
+- ThingSpeakは過去データを蓄積
+- ThingSpeak用データビューア(スマフォアプリ；ThingView)を用いることでグラフ表示
 ### Indoor Air Quality (IAQ) monitorの外観<br>
 マイコンはM5 Stamp(ESP32 C3)を利用、センサとして、SCD41、QMP6988をI2Cで接続<br>
 <img src="https://github.com/foobarbazfred/IAQ_monitor/blob/main/img/iaq_monitor.png" width="40%"><br>
