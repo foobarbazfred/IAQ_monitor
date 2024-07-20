@@ -1,6 +1,9 @@
 //
 //  mylib.rs
 //
+//  This source code is based on the ESP32 Rust Sample Code
+//
+//
 use log::info;
 use core::time::Duration;
 
