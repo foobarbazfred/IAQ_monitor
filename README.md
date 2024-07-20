@@ -11,15 +11,15 @@ The basic functions of an air quality monitor system are as follows:
 M5 Stamp (microcontroller is ESP32 C3(RISC-V)), and the sensors are SCD41 and QMP6988 connected via I2C.<br>
 <img src="https://github.com/foobarbazfred/IAQ_monitor/blob/main/img/iaq_monitor.png" width="40%">
 
-### Data viewer(ThingView)
-The data is stored in ThingSpeak and can be graphed using ThingView.<br>
+### Data viewer(Thingview)
+The data is stored in ThingSpeak and can be graphed using Thingview.<br>
 <img src="https://github.com/foobarbazfred/IAQ_monitor/blob/main/img/thingview.png" width="40%">
 
 ### System Architecture
 - IAQ monitor(M5 Stamp) and ThingSpeak are connected via MQTT
 - Publish the data obtained from the sensor
 - Past history is stored in IoT PF; ThingSpeak
-- ThingSpeak history data can be viewed using the smartphone app (ThinView)
+- ThingSpeak history data can be viewed using the smartphone app (Thingview)
 <img src="https://github.com/foobarbazfred/IAQ_monitor/blob/main/img/system_architecture.png" width="50%">
 
 ### Software Architecture
