@@ -25,3 +25,8 @@
 - softi2c.rc  周辺I/OとしてI2Cが1チャンネルしかないため、不足分をソフト版 I2C Driverで補充
 - main.rc 　システム全体を制御(センサからデータを取得してThingSpeakにPublishする)
 <img src="https://github.com/foobarbazfred/IAQ_monitor/blob/main/img/software_architecture.png" width="50%"><br>
+### 未実装の機能（改善が必要な点）
+- 計測は20分に一度行うが、単純なSleep(wait)を使って時間待ちしている。省電力のためには、DeepSleepに変えるべき
+- QMP6988の補正用の係数についてQMP6988のレジスタから読みとって演算すべきであるが、別のプログラムでQMP6988のレジスタから読みとって演算したものをIAQ_monitorのプログラムでは定数として使っている。
+- I2C用ドライバ(SoftI2C.rs)のプログラムでは利用するGPIOとしてはGPIO0/GPIO1を前提に変数の型宣言している。これでは汎用性がない(他のGPIOを選択すると型不一致でエラーになる)。一方、どうやったらGPIOの抽象化ができるのか勉強不足で分かっていない
+
